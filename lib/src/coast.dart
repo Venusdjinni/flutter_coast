@@ -65,6 +65,8 @@ class CoastController extends ChangeNotifier {
 
   final PageController _pageController;
 
+  PageController get pageController => _pageController;
+
   double? get beach => _pageController.page;
 
   @override
